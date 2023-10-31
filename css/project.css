@@ -1,0 +1,112 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #548689;
+    --main-text-color: #fff;
+    --border-color: #999;
+    --bio-bg-color: #1e2a3a;
+    --bio-border-color: #293544;
+    --about-bg-color: #111821;
+    --icons-text: #f3dd60;
+}
+
+/* projects container */
+
+
+#projects-container {
+    background-color: var(--about-bg-color);
+    color: var(--main-text-color);
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 0; 
+}
+
+#projects-container a.project {
+    margin-top: 20px;
+}
+
+
+.h1 {
+    margin-bottom: 10px;
+}
+.project {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+}
+
+
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project p {
+    margin: 20px 0;
+}
+
+.project a {
+    color: #fff;
+    background-color: rgb(37, 37, 177);
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px;
+}
+
+.project a:hover {
+    background-color: var(--main-color);
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+
+.text {
+   
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.github-link {
+    color: rgb(37, 37, 177);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px;
+}
+
+.github-link:hover {
+    background-color: var(--main-color);
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.button-container a {
+    margin: 0 10px;
+}

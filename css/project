@@ -1,0 +1,52 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #548689;
+    --main-text-color: #fff;
+    --border-color: #999;
+    --bio-bg-color: #1e2a3a;
+    --bio-border-color: #293544;
+    --about-bg-color: #111821;
+    --icons-text: #f3dd60;
+}
+
+/* projects container */
+
+#projects-container {
+    background-color: var(--about-bg-color);
+    color: var(--main-text-color);
+    text-align: center;
+    padding: 50px;
+}
+
+.project {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project p {
+    margin: 10px 0;
+}
+
+.project a {
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
